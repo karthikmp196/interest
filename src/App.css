@@ -1,0 +1,42 @@
+#main{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background-color: rgb(37, 35, 35);
+  height: 100vh;
+  width: 100%;
+ 
+}
+ #box{
+  padding-top: 10px;
+ align-items: center;
+  width: 30%;
+  height: 85vh;
+  border: 2px solid;
+  flex-direction: column;
+  padding-left: 30px; 
+  background-color: white; 
+  border-radius: 10px;
+} 
+#rate{
+  background-color: rgb(251, 207, 11);
+  width: 80%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: column;
+  color: white;
+  margin-left: 30px;
+}
+#tfd{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#but{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
